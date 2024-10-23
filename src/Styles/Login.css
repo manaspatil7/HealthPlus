@@ -1,0 +1,104 @@
+/* Styles for Login/Signup Page - Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4ff; /* Light background for better contrast */
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 400px; /* Increased width for better layout */
+}
+
+.login-title {
+    font-size: 28px; /* Increased font size for title */
+    color: #0056b3; /* Health Plus Blue */
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch target */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: #0056b3; /* Change border color on focus */
+    outline: none;
+}
+
+.login-btn, .google-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for hover effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn {
+    background-color: #0056b3; /* Health Plus Blue */
+    color: white;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #00408a;
+    transform: scale(1.02); /* Slightly scale on hover */
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+    border: none;
+    position: relative;
+}
+
+.google-btn:hover {
+    background-color: #c33c29;
+    transform: scale(1.02); /* Slightly scale on hover */
+}
+
+.google-logo {
+    width: 20px; /* Size of the Google logo */
+    height: 20px;
+    margin-right: 10px; /* Space between the logo and text */
+}
+
+.login-divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.login-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.login-switch {
+    color: #0056b3;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.login-switch:hover {
+    text-decoration: underline;
+}
